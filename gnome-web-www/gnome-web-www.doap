@@ -1,0 +1,25 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gnome="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+  <name xml:lang="en">www.gnome.org files</name>
+  <shortdesc xml:lang="en">Website theme and translation strings for www.gnome.org</shortdesc>
+  <description>This repository contains the WordPress template files used in
+    main gnome.org website, together with its content translations (which works
+    trough wppo plugin, located in gnome-web-wppo repository).
+    </description>
+  <homepage rdf:resource="https://live.gnome.org/GnomeWeb/" />
+  <mailing-list rdf:resource="http://mail.gnome.org/mailman/listinfo/gnome-web-list" />
+  <bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=website" />
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Vinicius Depizzol</foaf:name>
+      <foaf:mbox rdf:resource="mailto:vdepizzol@gmail.com" />
+      <gnome:userid>vdepizzol</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+</Project>
+
